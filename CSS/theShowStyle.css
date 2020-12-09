@@ -1,0 +1,143 @@
+body{
+    background-image:url("../Images/header6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+header {
+
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 40%;
+    width: 100%;
+}
+
+nav a {
+    float:center;
+    background-color:none;
+    color:white;
+    text-align:center;
+    padding:20px 20px;
+    margin:20px;
+    text-decoration:none;
+    font-size:20px;
+    font-family:cursive;
+}
+
+nav a:hover {
+    background-color: PaleVioletRed;
+    color: white;
+    border-radius: 10%;
+
+}
+.navbar-nav{
+    height: 10%;
+}
+
+.fa-bars{
+    font-size: 30px !important;
+    color:red;
+    border: white solid;
+    padding: 10%;
+    border-radius: 15%;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-nav li a{
+    float: left;
+    text-align: center;
+}
+.nav_lines{
+    border-top: 3px solid SlateGrey ;
+    border-bottom: 3px solid SlateGrey ;
+}
+
+.img_header{
+    margin-top: 1%;
+    margin-bottom: 12%;
+}
+
+main{
+    overflow: auto;
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+*{box-sizing: border-box;}
+[class*="col-"] {
+    float: left;
+    padding:1%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: gray;
+    color: white;
+    text-align:left;
+    padding:1px;
+}
+.footerp{
+    float: left;
+    padding:1%;
+    text-align: left;
+    font-size: 15px;
+}
+.links{
+    float: right;
+    padding-right: 1%;
+}
+h1{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+} 
+
+.actorArea{
+    margin-bottom: 7%;
+}
+
+.actorLink{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    text-align: center;
+}
+.actorsRow{
+    padding-left: 1%;
+    padding-left: 1%;
+    width: 100%;
+    overflow: auto;
+}
+.linksText:hover {
+    background-color: none;
+    color: PaleVioletRed;
+    border-radius: 10%;
+
+}
+.table{
+    margin: 0% 4%;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.8);
+}
+tr{
+    text-align: center;
+}
+td{
+   text-align: center;
+}
+td img{
+    margin-right: 10px;
+    border-radius: 5%;
+}

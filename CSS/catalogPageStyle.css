@@ -1,0 +1,230 @@
+body{
+    background-image:url("../Images/header6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+header {
+
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 40%;
+    width: 100%;
+}
+
+nav a {
+    float:center;
+    background-color:none;
+    color:white;
+    text-align:center;
+    padding:20px 20px;
+    margin:20px;
+    text-decoration:none;
+    font-size:20px;
+    font-family:cursive;
+}
+
+nav a:hover {
+    background-color: PaleVioletRed;
+    color: white;
+    border-radius: 10%;
+
+}
+.navbar-nav{
+    height: 10%;
+}
+
+.fa-bars{
+    font-size: 30px !important;
+    color:red;
+    border: white solid;
+    padding: 10%;
+    border-radius: 15%;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-nav li a{
+    float: left;
+    text-align: center;
+}
+.nav_lines{
+    border-top: 3px solid SlateGrey ;
+    border-bottom: 3px solid SlateGrey ;
+}
+
+.img_header{
+    margin-top: 1%;
+    margin-bottom: 12%;
+}
+
+main{
+    margin-top: 3%;
+    margin-bottom: 10%;
+}
+*{box-sizing: border-box;}
+[class*="col-"] {
+    float: left;
+    padding:1%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: gray;
+    color: white;
+    text-align:left;
+    padding:1px;
+}
+.footerp{
+    float: left;
+    padding:1%;
+    text-align: left;
+    font-size: 15px;
+}
+.links{
+    float: right;
+    padding-right: 1%;
+}
+h1{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+}  
+
+.productrArea{
+    margin-bottom: 7%;
+    box-shadow: 0 0 16px rgba(0 0 0 0.5);
+}
+.productLink{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:cursive;
+    text-align: center;
+}
+.productsRow{
+    padding-left: 1%;
+    padding-left: 1%;
+    width: 100%;
+    overflow: auto;
+}
+.linksText:hover {
+    background-color: none;
+    color: PaleVioletRed;
+    border-radius: 10%;
+}
+[class*="productText-"]{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(37, 34, 34, 0.6);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: cursive;
+    display: none;
+}
+[class*="prod-"]:hover{
+    background-size: 110%;
+}
+.prod-1{
+    background-image: url("../Images/product1.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-2{
+    background-image: url("../Images/product2.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-3{
+    background-image: url("../Images/product3.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-4{
+    background-image: url("../Images/product4.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-4{
+    background-image: url("../Images/product4.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-5{
+    background-image: url("../Images/product5.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-6{
+    background-image: url("../Images/product6.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-7{
+    background-image: url("../Images/product7.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-8{
+    background-image: url("../Images/product8.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}
+.prod-9{
+    background-image: url("../Images/product9.jpg");
+    background-position: center;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size:cover;
+    margin: auto;
+}

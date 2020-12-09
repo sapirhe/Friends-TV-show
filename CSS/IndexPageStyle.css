@@ -1,0 +1,183 @@
+body{
+    background-image:url("../Images/header6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+header {
+
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 40%;
+    width: 100%;
+}
+
+nav a {
+    float:center;
+    background-color:none;
+    color:white;
+    text-align:center;
+    padding:20px 20px;
+    margin:20px;
+    text-decoration:none;
+    font-size:20px;
+    font-family:cursive;
+}
+
+nav a:hover {
+    background-color: PaleVioletRed;
+    color: white;
+    border-radius: 10%;
+
+}
+.navbar-nav{
+    height: 10%;
+}
+
+.fa-bars{
+    font-size: 30px !important;
+    color:red;
+    border: white solid;
+    padding: 10%;
+    border-radius: 15%;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-nav li a{
+    float: left;
+    text-align: center;
+}
+.nav_lines{
+    border-top: 3px solid SlateGrey ;
+    border-bottom: 3px solid SlateGrey ;
+}
+
+.img_header{
+    margin-top: 1%;
+    margin-bottom: 12%;
+}
+main{
+    overflow: auto;
+    margin-top: 3%;
+    margin-bottom: 15%;
+}
+*{box-sizing: border-box;}
+[class*="col-"] {
+    float: left;
+    padding:1%;
+}
+[class*="p"]{
+    text-align: center;
+    padding: 2%;
+    font-family:sans-serif ;
+}
+video{
+    width: 98%;
+
+}
+.videoArea{
+
+    margin-right:3%;
+    margin-left: 3%;
+
+}
+
+.footerp{
+    float: left;
+    padding:1%;
+    text-align: left;
+    font-size: 15px;
+}
+.links{
+    float: right;
+    padding-right: 1%;
+}
+
+h1{
+    color: gray;
+    text-align: center;
+    font-family:monospace;
+}
+.text{
+    color: royalblue;
+    font-family: cursive;
+    text-align: center;
+    margin: 1%;
+    background-color: rgba(255,255,255, 0.9);
+    background-size: cover;
+    opacity: 0.7;
+    filter: alpha(opacity=50);
+}
+.text:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100);
+}
+
+.text h1{
+    font-family: cursive;
+}
+.cardsWrapper{
+    clear: both;
+    padding: 5% 10%;
+    margin: auto;
+    overflow: auto;
+    justify-content: center;
+}
+.card{
+    opacity: 0.8;
+}
+.card:hover{
+    opacity:1;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.card-body{
+    text-align: left;
+    font-family: cursive;
+}
+.card-img-top{
+   width:286px; 
+    height: 180px;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 7%;
+    background-color: gray;
+    color: white;
+    text-align:left;
+    padding:1px;
+}
+.imagesWrapper{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255,255,255, 0.8);
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+.wrap{
+    overflow: auto;
+    margin-left: 1%;
+}
+.box{
+    width: 150px;
+    height: 200px;
+    transition: 1s;
+}
+
+.box:hover{
+    transform: scale(1.3);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+
+}
